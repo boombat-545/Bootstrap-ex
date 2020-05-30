@@ -1,0 +1,184 @@
+h1{
+  font-family: 'Montserrat-black', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-size: 3rem;
+line-height: 1.5;
+color:white;
+
+}
+h2{
+  font-family: 'Ubuntu', sans-serif;
+  color:#fff;
+}
+
+body{
+    font-family: 'Montserrat-black', sans-serif;
+}
+
+/*navbar*/
+
+.navbar-brand{
+  font-size: 2rem;
+    font-family: 'Montserrat-black', sans-serif;
+}
+.container-fluid{
+padding:6% 15%;
+
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+
+#title{
+  background-color:#ff4c68 ;
+
+
+}
+
+/*title image*/
+.imagedog{
+  width: 60%;
+  transform: rotate(20deg);
+position: absolute;
+top:5%;
+
+
+}
+
+.Download-bottons{
+  margin: 13% 3% 0 0;
+}
+
+/*secotion B  features section*/
+
+
+/*font-awsome edit*/
+#features{
+  padding: 5%  1% ;
+background-color:white;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.fas{
+  font-size:90px;
+  margin-left: 1.5rem;
+  color:#cf8172;
+}
+
+.fas:hover{
+  color:green;
+
+}
+.font-style{
+  font-family: 'Ubuntu-bold', sans-serif;
+}
+
+/* testimonials section*/
+
+#testimonials{
+  text-align: center;
+  padding: 5% 17%;
+  background-color:#cf8172;
+}
+
+.testimonials-img{
+  width:10rem;
+  border-radius: 100%;
+
+}
+
+/*press*/
+#press{
+  text-align: center;
+  background-color:#cf8172;
+}
+
+
+.img-size{
+  width: 12%;
+  margin: 4%  2% 2% 3%;
+}
+.boombat-img-size{
+  height: 25%;
+  width: 30%;
+border-radius: 100%;
+}
+
+
+/*pricing */
+#pricing{
+padding: 7% 9%;
+}
+.change{
+  color:black;
+}
+
+
+.card-body{
+  text-align: center;
+}
+.card-header{
+  text-align: center;
+}
+.space{
+  padding: 5% 0%
+}
+
+
+/*footer section*/
+
+#cta{
+  padding: 10% 0;
+  background-color:#ff4c68;
+  text-align: center;
+}
+
+.foot-write{
+    font-family:'Montserrat-black', sans-serif;
+    font-size: 2rem;
+font-weight: bold;
+color:#fff;
+
+
+}
+.Download-bottons1{
+  margin:16px 20px 0 0;
+}
+
+
+/*FOOTER*/
+#footer{
+  text-align: center;
+}
+.edit-it:hover{
+  color: skyblue;
+
+}
+
+/*@media query */
+
+
+
+
+@media (max-width:1028px) {
+  .imagedog{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+@media(max-width:1028px)  {
+
+  .Download-bottons{
+    margin: 2% 0 5% 0;
+  }
+}
